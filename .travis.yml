@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-Langage: ruby
-Rvm:
+langage: ruby
+rvm:
 - 2.2.4
 deploy:
   provider: heroku
