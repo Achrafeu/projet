@@ -1,4 +1,12 @@
 langage: ruby
 rvm: 
 - 2.2.4
+deploy:
+  provider: heroku
+  api_key:
+    secure: t/L+jGAF9KfSjSLKNiL01kVbxfizZO1YWEd+o/fsv0gBNayis4vw0T1hO/GVwZS/Il5Bu0BKchdFfdeuJebjNF+flPRl8a4VlguArS3v6w8MtfUIYwulY920Je/reNiZ2vNa24qd2Dykpl+chUJ5ljagI+WKsb4L6ohGIczFxSiTK7TrReIrQGs/NX3oXZkJd5g40C3BtqIIeEXBDloZ+VhVRkRknanIg9ydAEaeNbgBzn+amdDrr0cCzNZYVXYVvVDcajiTBqMd4sPSEPDWOeyrFu9p2EcBSf9MaE/8iSxKP90oM69GunJTLcKYAIGY36aCv/e2zrq3SstcJ4vzgRpmT+mUPp8jZPHovNq7DY1LqvQPNim/lkJR+zYbhPTf393B9ZOQ5lnRy1f5YzVBViLRNA+Ah2PhvJ2jeM9WcNQ/u2+ea4nMrvoxYgJV1JjNItuZ2qpcX3ySMxuErCHTBnp6Dfns97zZSOrKrM2FQUkay+Tx65wXPMVkyGdNBtsWdtFcVtauXpP/9o7FT3Y/mVnBzksQvlUAz/ieykwHmL5i0Vn90Lr6QXA4mGhKvaeZ7uWuL+9RxnpHuoqHXfbwF/YMxPhWvJM6GOBwr9C+3UjrTG/faBTCC24EKWSIBbc5QRDKmAcnaJu0kslIRpQKbeD57/G8VDWq/SHze2lvYoU=
+  app: agile-plains-32317
+  on:
+    repo: Achrafeu/projet
+
 
