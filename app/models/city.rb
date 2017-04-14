@@ -2,7 +2,7 @@ class City < ActiveRecord::Base
   before_validation :geocode
 
   def getTemperature
-      forecast = ForecastIO.forecast(self.latitude, self.longitude)
+      forecast = ForecastIO.forecast(self.latitude, self.longtitude)
       temperatureOk = false
       if forecast
         todayForecast = forecast.currently
@@ -20,7 +20,7 @@ class City < ActiveRecord::Base
    end
   
   def getWeather
-      forecast = ForecastIO.forecast(self.latitude, self.longitude)
+      forecast = ForecastIO.forecast(self.latitude, self.longtitude)
       weatherOk = false
       if forecast
         todayForecast = forecast.currently
