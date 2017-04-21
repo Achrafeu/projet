@@ -1,0 +1,7 @@
+{
+   "/students/*": {
+     "target": "http://projet-achrafel-mancouri963031.codeanyapp.com:4200",
+     "secure": false,
+     "logLevel": "debug"
+    }
+ }
